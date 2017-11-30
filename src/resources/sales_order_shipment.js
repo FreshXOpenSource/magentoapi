@@ -59,7 +59,7 @@ var protos = {
   */
   list: {
     mandatory: 'filters',
-    modifiers: {
+    /* modifiers: {
       filters: function(filters) {
         // if filters is not an array, wrap it in an array
         if (!Array.isArray(filters)) {
@@ -68,7 +68,7 @@ var protos = {
 
         return filters;
       }
-    }
+    } */
   },
 
   /**
